@@ -8,4 +8,5 @@ var isSquare = function(n){
 // Cara singkat
 // return Math.sqrt(n) % 1 === 0;
 
+
 console.log(isSquare(44))
