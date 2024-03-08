@@ -1,0 +1,8 @@
+// Codewars Coding Challenge 2024
+// https://www.codewars.com/kata/57ea5b0b75ae11d1e800006c
+
+function sortByLength(array) {
+  return array.sort((a, b) => a - b);
+}
+
+console.log(sortByLength(["Beg", "Life", "I", "To"]));
