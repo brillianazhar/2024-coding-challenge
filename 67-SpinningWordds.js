@@ -8,4 +8,4 @@ function spinWords(string) {
     .join(" ");
 }
 
-console.log({ "": spinWords("This is another test") });
+console.log({ "": spinWords("This is another second test") });
