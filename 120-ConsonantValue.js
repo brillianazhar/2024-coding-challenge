@@ -11,7 +11,7 @@ function solve(s) {
 
   //Cara lain
   return Math.max(
-    ...a
+    ...s
       .split(/[aeiou]+/)
       .map((s) => [...s].reduce((a, b) => a + b.charCodeAt() - 96, 0))
   );
